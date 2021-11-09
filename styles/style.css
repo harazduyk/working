@@ -49,11 +49,11 @@
   font-weight: 700;
   letter-spacing: 5px;
   text-transform: uppercase;
-  color: #3c3c3c;
   background-color: #ffffff;
   position: relative;
   top: 20px;
   margin: 0 auto;
+  color: #3c3c3c;
 }
 
 .main .about__us {
@@ -69,5 +69,84 @@
   line-height: 1.5;
   color: #3c3c3c;
   margin-top: 5%;
+}
+
+.main .services {
+  width: 100%;
+  text-align: center;
+  background-image: url("../images/background2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 5% 0;
+}
+
+.main .services h2 {
+  width: 25%;
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  background: none;
+  position: relative;
+  top: 20px;
+  margin: 0 auto;
+  background-image: inherit;
+  color: #ffffff;
+}
+
+.main .services p {
+  width: 60%;
+  border: 3px solid #ffffff;
+  padding: 3% 0 2% 0;
+  margin: 0 auto;
+  color: #ffffff;
+}
+
+.main .what {
+  width: 100%;
+  text-align: center;
+  padding: 5%;
+}
+
+.main .what h2 {
+  width: 25%;
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  position: relative;
+  top: 20px;
+  margin: 0 auto;
+  color: #3c3c3c;
+}
+
+.main .what__text {
+  width: 60%;
+  border: 3px solid #262626;
+  padding: 2% 0;
+  margin: 0 auto;
+  padding-bottom: 5%;
+}
+
+.main .what__text img {
+  margin: 10% 0 3% 0;
+}
+
+.main .what__text h3 {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #3c3c3c;
+}
+
+.main .what__text p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 2;
+  color: #3c3c3c;
+  margin-top: 3%;
 }
 /*# sourceMappingURL=style.css.map */
