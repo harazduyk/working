@@ -3,3 +3,27 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+@mixin imageText {
+    @include backgroundImage;
+    text-align: left;
+    padding: 10% 0 1.5% 1.5%;
+    margin-top: 0.5%;
+}
+
+@mixin titleH2 {
+    width: 25%;
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    position: relative;
+    top: 20px;
+    margin: 0 auto;
+}
+
+@mixin titleP {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2;
+}
