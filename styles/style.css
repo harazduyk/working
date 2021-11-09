@@ -87,7 +87,7 @@
   font-weight: 700;
   letter-spacing: 5px;
   text-transform: uppercase;
-  background: none;
+  background-color: inherit;
   position: relative;
   top: 20px;
   margin: 0 auto;
@@ -148,5 +148,93 @@
   line-height: 2;
   color: #3c3c3c;
   margin-top: 3%;
+}
+
+.main .works {
+  width: 100%;
+}
+
+.main .works__line {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main .works__line h2 {
+  font-size: 34px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #ffffff;
+}
+
+.main .works__line_topworkz {
+  width: 30%;
+  background-image: url("../images/topworkz.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: left;
+  padding: 10% 0 1.5% 1.5%;
+  margin-top: 0.5%;
+}
+
+.main .works__line_joint {
+  width: 39%;
+  background-image: url("../images/joint.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: left;
+  padding: 10% 0 1.5% 1.5%;
+  margin-top: 0.5%;
+}
+
+.main .works__line_market {
+  width: 30%;
+  background-image: url("../images/market.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: left;
+  padding: 10% 0 1.5% 1.5%;
+  margin-top: 0.5%;
+}
+
+.main .works__line_worktop {
+  width: 30%;
+  background-image: url("../images/worktop.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: left;
+  padding: 10% 0 1.5% 1.5%;
+  margin-top: 0.5%;
+}
+
+.main .works__line_lable {
+  width: 39%;
+  background-image: url("../images/lable.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: left;
+  padding: 10% 0 1.5% 1.5%;
+  margin-top: 0.5%;
+}
+
+.main .works__line_kyiv {
+  width: 30%;
+  background-image: url("../images/kyiv.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: left;
+  padding: 10% 0 1.5% 1.5%;
+  margin-top: 0.5%;
 }
 /*# sourceMappingURL=style.css.map */

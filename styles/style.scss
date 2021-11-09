@@ -72,7 +72,7 @@
             font-weight: 700;
             letter-spacing: 5px;
             text-transform: uppercase;
-            background: none;
+            background-color: inherit;
             position: relative;
             top: 20px;
             margin: 0 auto;
@@ -125,6 +125,69 @@
                 line-height: 2;
                 color: #3c3c3c;
                 margin-top: 3%;
+            }
+        }
+    }
+    .works {
+        width: 100%;
+        &__line {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            & h2 {
+                font-size: 34px;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 5px;
+                color: #ffffff;
+            }
+            &_topworkz {
+                width: 30%;
+                background-image: url("../images/topworkz.png");
+                @include backgroundImage;
+                text-align: left;
+                padding: 10% 0 1.5% 1.5%;
+                margin-top: 0.5%;
+            }
+            &_joint {
+                width: 39%;
+                background-image: url("../images/joint.png");
+                @include backgroundImage;
+                text-align: left;
+                padding: 10% 0 1.5% 1.5%;
+                margin-top: 0.5%;
+            }
+            &_market {
+                width: 30%;
+                background-image: url("../images/market.png");
+                @include backgroundImage;
+                text-align: left;
+                padding: 10% 0 1.5% 1.5%;
+                margin-top: 0.5%;
+            }
+            &_worktop {
+                width: 30%;
+                background-image: url("../images/worktop.png");
+                @include backgroundImage;
+                text-align: left;
+                padding: 10% 0 1.5% 1.5%;
+                margin-top: 0.5%;
+            }
+            &_lable {
+                width: 39%;
+                background-image: url("../images/lable.png");
+                @include backgroundImage;
+                text-align: left;
+                padding: 10% 0 1.5% 1.5%;
+                margin-top: 0.5%;
+            }
+            &_kyiv {
+                width: 30%;
+                background-image: url("../images/kyiv.png");
+                @include backgroundImage;
+                text-align: left;
+                padding: 10% 0 1.5% 1.5%;
+                margin-top: 0.5%;
             }
         }
     }
