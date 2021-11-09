@@ -237,4 +237,66 @@
   padding: 10% 0 1.5% 1.5%;
   margin-top: 0.5%;
 }
+
+.main .contact {
+  width: 100%;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.main .contact h2 {
+  width: 25%;
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  position: relative;
+  top: 20px;
+  margin: 0 auto;
+  color: #3c3c3c;
+}
+
+.main .contact_information {
+  width: 60%;
+  border: 3px solid #262626;
+  padding: 3%;
+  margin: 0 auto;
+}
+
+.main .contact_information p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 2;
+  color: #3c3c3c;
+}
+
+.main .contact_information a {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #ffffff;
+  text-decoration: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #3c3c3c;
+  padding: 2%;
+  margin: 3% auto 0 auto;
+}
+
+.footer {
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  padding: 3%;
+}
 /*# sourceMappingURL=style.css.map */
