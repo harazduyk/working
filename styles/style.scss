@@ -59,12 +59,27 @@
         padding: 5% 0;
         & h2 {
             @include titleH2;
-            background-image: inherit;
             color: #ffffff;
+        }
+        &__left-line {
+            width: 17rem;
+            border: none;
+            border-bottom: 3px solid white;
+            position: relative;
+            left: 19rem;
+            top: 3px;
+        }
+        &__right-line {
+            width: 17rem;
+            border: none;
+            border-bottom: 3px solid white;
+            position: relative;
+            left: 58.95rem;
         }
         & p {
             width: 60%;
             border: 3px solid #ffffff;
+            border-top: none;
             @include titleP;
             color: #ffffff;
             padding: 3% 0 2% 0;

@@ -90,13 +90,30 @@
   position: relative;
   top: 20px;
   margin: 0 auto;
-  background-image: inherit;
   color: #ffffff;
+}
+
+.main .services__left-line {
+  width: 17rem;
+  border: none;
+  border-bottom: 3px solid white;
+  position: relative;
+  left: 19rem;
+  top: 3px;
+}
+
+.main .services__right-line {
+  width: 17rem;
+  border: none;
+  border-bottom: 3px solid white;
+  position: relative;
+  left: 58.95rem;
 }
 
 .main .services p {
   width: 60%;
   border: 3px solid #ffffff;
+  border-top: none;
   font-size: 16px;
   font-weight: 300;
   line-height: 2;
