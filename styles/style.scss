@@ -217,3 +217,47 @@
 .main .contact_information a:hover {
     background-color: #3c3c3c85;
 }
+
+@media (min-width: 650px) and (max-width: 850px) {
+    .main .works__line h2 {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 414px) and (max-width: 650px) {
+    .main .works__line {
+        display: block;
+        &_topworkz {
+            width: 100%;
+        }
+        &_joint {
+            width: 100%;
+        }
+        &_market {
+            width: 100%;
+        }
+        &_worktop {
+            width: 100%;
+        }
+        &_lable {
+            width: 100%;
+        }
+        &_kyiv {
+            width: 100%;
+        }
+    }
+}
+
+@media (min-width: 414px) and (max-width: 1430px) {
+    .services p {
+        border-top: 3px solid;
+    }
+    .services h2 {
+        text-align: center;
+        position: relative;
+        top: 2%;
+    }
+    .services hr {
+        opacity: 0;
+    }
+}
