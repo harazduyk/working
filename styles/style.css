@@ -1,5 +1,6 @@
 .main {
   width: 100%;
+  overflow-x: hidden;
   font-family: 'Lato', sans-serif;
 }
 
@@ -44,7 +45,7 @@
 }
 
 .main .about h2 {
-  width: 25%;
+  width: 40%;
   font-size: 34px;
   font-weight: 700;
   letter-spacing: 5px;
@@ -82,7 +83,7 @@
 }
 
 .main .services h2 {
-  width: 25%;
+  width: 40%;
   font-size: 34px;
   font-weight: 700;
   letter-spacing: 5px;
@@ -129,7 +130,7 @@
 }
 
 .main .what h2 {
-  width: 25%;
+  width: 40%;
   font-size: 34px;
   font-weight: 700;
   letter-spacing: 5px;
@@ -264,7 +265,7 @@
 }
 
 .main .contact h2 {
-  width: 25%;
+  width: 40%;
   font-size: 34px;
   font-weight: 700;
   letter-spacing: 5px;
@@ -291,7 +292,7 @@
 }
 
 .main .contact_information a {
-  width: 40%;
+  width: 170px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -305,7 +306,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #3c3c3c;
-  padding: 2%;
+  padding: 3% 2%;
   margin: 3% auto 0 auto;
 }
 
@@ -366,16 +367,11 @@
 }
 
 @media (min-width: 414px) and (max-width: 1430px) {
-  .services p {
-    border-top: 3px solid;
-  }
-  .services h2 {
-    text-align: center;
-    position: relative;
-    top: 2%;
-  }
   .services hr {
     opacity: 0;
+  }
+  .services p {
+    border-top: 3px solid #ffffff;
   }
 }
 /*# sourceMappingURL=style.css.map */

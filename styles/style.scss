@@ -1,6 +1,7 @@
 @import "mixins";
 .main {
     width: 100%;
+    overflow-x: hidden;
     font-family: 'Lato', sans-serif;
     & .working {
         width: 100%;
@@ -182,7 +183,7 @@
                 color: #3c3c3c;
             }
             & a {
-                width: 40%;
+                width: 170px;
                 display: flex;
                 font-size: 16px;
                 font-weight: 400;
@@ -192,7 +193,7 @@
                 text-decoration: none;
                 justify-content: center;
                 background-color: #3c3c3c;
-                padding: 2%;
+                padding: 3% 2%;
                 margin: 3% auto 0 auto;
             }
         }
@@ -249,15 +250,10 @@
 }
 
 @media (min-width: 414px) and (max-width: 1430px) {
-    .services p {
-        border-top: 3px solid;
-    }
-    .services h2 {
-        text-align: center;
-        position: relative;
-        top: 2%;
-    }
     .services hr {
         opacity: 0;
+    }
+    .services p {
+        border-top: 3px solid #ffffff;
     }
 }
